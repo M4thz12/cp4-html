@@ -123,25 +123,7 @@ nav ul li a:hover{
     object-fit: contain;
 }
 
-.ver-mais{
-    background-color: var(--cor-fundo);
-    text-align: center;
-    margin: 5px;
-    padding: 8px;
-    border-radius: 20px;
-}
 
-.ver-mais a{
-    text-decoration: none;
-    list-style: none;
-    color: var(--cor-texto);
-}
-
-.ver-mais a:hover{
-    background-color: var(--cor-ver-mais-hover);
-    border-radius: 10px;
-    padding: 5px;
-}
 
 footer{
     background-color:var(--cor-divisoria);
@@ -193,9 +175,6 @@ footer{
         font-size: 75%;
     }
     
-    .ver-mais a {
-        padding: 3px;
-    }
     
     footer {
         text-align: center;
