@@ -63,6 +63,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color: var(--cor-menu-nav);
     border-radius: 10px;
+    border: solid blue 0.5px;
 }
 
 .apresentacao{
@@ -125,6 +126,8 @@ nav ul li a:hover{
 
 
 
+
+
 footer{
     background-color:var(--cor-divisoria);
     text-align: center;
@@ -155,7 +158,7 @@ footer{
     }
     
     .apresentacao img {
-        width: 100px;
+        width: 40%;
         height: auto;
         margin-bottom: 10px;
     }
@@ -167,17 +170,23 @@ footer{
     .cards {
         justify-content: center;
         font-size: 75%;
+        gap: 30px;
     }
     
     .cards .card {
         width: 45%;
         min-height: 120px;
         font-size: 75%;
+        
     }
     
     
     footer {
         text-align: center;
         font-size: 75%;
+    }
+    footer img{
+        display: inline-block;
+        width: 50%;
     }
 }
